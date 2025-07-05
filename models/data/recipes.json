@@ -1,0 +1,260 @@
+[
+      {
+      "id": "1",
+      "steps": [
+        "Marinate chicken with yogurt and spices for 30 minutes.",
+        "Fry onions until golden brown; keep half aside for layering.",
+        "Cook chicken with tomatoes and remaining spices until done.",
+        "Boil rice with salt and whole spices until 80% cooked; drain.",
+        "Layer rice and chicken in a pot with mint, coriander, and fried onions.",
+        "Drizzle saffron milk on top, seal the pot, and cook on low heat for 20–25 minutes.",
+        "Fluff and serve hot with raita or salad."
+      ],
+      "title": "Chicken Biriyani | Jakia Sultana Jerin | Weekend dish",
+      "reviews": [
+        {
+          "id": "rev1",
+          "user": "foodie123",
+          "attachment": "https://example.com/images/review1.jpg",
+          "description": "Tasted amazing! Just like in Rome."
+        }
+      ],
+      "category": "Rice/Main Course",
+      "thumbUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTP8l2kuZDANQExDsYteLg0NEUEjLkjudABRg&s",
+      "description": "Chicken Biryani is a flavorful and aromatic South Asian rice dish made with layers of marinated chicken, basmati rice, and a blend of traditional spices. It's cooked with saffron or turmeric for color and aroma, often garnished with fried onions and fresh herbs. A festive and comforting one-pot meal.",
+      "ingredients": {
+        "Salt": "to taste",
+        "Water": "for boiling",
+        "Onions": "2 large, sliced",
+        "Yogurt": "1/2 cup",
+        "Chicken": "500g",
+        "Saffron": "a few strands soaked in 2 tbsp warm milk (optional)",
+        "Tomatoes": "2, chopped",
+        "Mint leaves": "a handful, chopped",
+        "Oil or ghee": "3 tbsp",
+        "Basmati rice": "2 cups",
+        "Garam masala": "1 tsp",
+        "Turmeric powder": "1/2 tsp",
+        "Red chili powder": "1 tsp",
+        "Ginger-garlic paste": "1 tbsp",
+        "Fresh coriander leaves": "a handful, chopped",
+        "Whole spices (bay leaf, cinnamon stick, cloves, green cardamoms)": "as needed"
+      }
+    },
+    {
+      "id": "2",
+      "steps": [
+        "Start boiling pasta according to package instructions, drain and set aside once complete.",
+        "While your pasta is boiling, make the sauce. Heat your pan on high. Pour in your oil and ground beef/chicken.",
+        "Break up the beef/chicken into small chunks and fry in the oil until very well browned and foamy.",
+        "Then add seasonings and onions. Stirfry for a minute.",
+        "Then add  tomatoes. Press the tomatoes with your spatula to break them up into small pieces. Cook until all the water evaporat.",
+        "Add green bell peppers, stir-fry for a minute, then simmer with a cup of water for 15-20 minutes until veggies are soft. Add water as needed.",
+        "Once nice and fried, add in your cooked shell pasta and mix into the sauce very well, keeping your pot on low to heat the pasta back up a little.",
+        "Top with cheese and a sprinkle of chopped cilantro and serve hot, enjoy!"
+      ],
+      "title": "Deshi Style Pasta",
+      "reviews": [
+        {
+          "id": "rev3",
+          "user": "spiceLover",
+          "attachment": "https://example.com/images/review3.jpg",
+          "description": "Spicy and flavorful. Loved it with naan!"
+        }
+      ],
+      "category": "Spicy Dish",
+      "thumbUrl": "https://images.immediate.co.uk/production/volatile/sites/30/2013/05/Puttanesca-fd5810c.jpg?quality=90&resize=556,505",
+      "description": "Deshi Style Pasta is a spicy, flavorful pasta dish made with ground beef, soft veggies, and rich deshi-style spices. The sauce is cooked down until dry and caramelized, giving it a bold, curry-like taste. Perfect for a savory snack or main meal.",
+      "ingredients": {
+        "Salt": "to taste",
+        "Onions": "3 medium",
+        "Tomatoes": "2 medium",
+        "Turmeric": "1/2 tsp",
+        "Beef/Chicken": "as needed",
+        "Garam masala": "1 tsp",
+        "Ginger paste": "1 tsp",
+        "Garlic powder": "1 tsp",
+        "Red chili powder": "1/4 tsp",
+        "Medium shell pasta": "1/2 or 1 Packet",
+        "White cheddar cheese": "1/4 cup",
+        "Large green bell pepper": "1/2"
+      }
+    },
+    {
+      "id": "3",
+      "steps": [
+        "Heat oil in a wok.",
+        "Add garlic and ginger.",
+        "Add vegetables and stir-fry on high heat.",
+        "Add soy sauce and stir until well coated.",
+        "Serve hot."
+      ],
+      "title": "Dhaba Chicken",
+      "reviews": [],
+      "category": "Vegetarian",
+      "thumbUrl": "https://atanurrannagharrecipe.com/wp-content/uploads/2022/12/Dhaba-Chicken.png",
+      "description": "A quick and healthy vegetable stir-fry with Asian flavors.",
+      "ingredients": {
+        "Garlic": "2 cloves",
+        "Ginger": "1 tsp",
+        "Carrots": "1 cup",
+        "Broccoli": "1 cup",
+        "Soy sauce": "2 tbsp",
+        "Sesame oil": "1 tbsp",
+        "Bell peppers": "1 cup"
+      }
+    },
+    {
+      "id": "9",
+      "steps": [
+        "Mix dry ingredients.",
+        "Whisk in milk and egg.",
+        "Pour batter on a hot griddle.",
+        "Cook until bubbles form, then flip.",
+        "Serve with syrup or fruit."
+      ],
+      "title": "Loitta Shutki",
+      "reviews": [],
+      "category": "Breakfast",
+      "thumbUrl": "https://www.shajgoj.com/wp-content/uploads/2017/04/loitka-sutki-700x431.jpg",
+      "description": "Fluffy breakfast pancakes with syrup or fruit toppings.",
+      "ingredients": {
+        "Egg": "1",
+        "Milk": "1 cup",
+        "Salt": "a pinch",
+        "Flour": "1 cup",
+        "Sugar": "2 tbsp",
+        "Baking powder": "1 tsp"
+      }
+    },
+    {
+      "id": "4",
+      "steps": [
+        "Chop romaine lettuce.",
+        "Toss with dressing.",
+        "Top with croutons and Parmesan.",
+        "Serve chilled."
+      ],
+      "title": "Easy Sautted Vegetable",
+      "reviews": [],
+      "category": "Salad",
+      "thumbUrl": "https://www.inspiredtaste.net/wp-content/uploads/2023/03/Easy-Sauteed-Vegetables-1200.jpg",
+      "description": "Crisp romaine with creamy Caesar dressing and croutons.",
+      "ingredients": {
+        "Croutons": "1 cup",
+        "Parmesan": "1/4 cup",
+        "Caesar dressing": "1/2 cup",
+        "Romaine lettuce": "1 head"
+      }
+    },
+    {
+      "id": "5",
+      "steps": [
+        "Butter the bread slices.",
+        "Place cheese between slices.",
+        "Grill on pan until golden brown on both sides.",
+        "Serve hot."
+      ],
+      "title": "Beef Kala Bhuna",
+      "reviews": [],
+      "category": "Snack",
+      "thumbUrl": "https://ourbigescape.com/wp-content/uploads/2023/02/1.-Beef-Kala-Bhuna-Beef-Curry.jpg",
+      "description": "Crispy, gooey grilled cheese sandwich.",
+      "ingredients": {
+        "Butter": "1 tbsp",
+        "Bread slices": "2",
+        "Cheddar cheese": "2 slices"
+      }
+    },
+    {
+      "id": "6",
+      "steps": [
+        "Whisk eggs, milk, cinnamon, and vanilla.",
+        "Dip bread slices into the mixture.",
+        "Fry in butter until golden on both sides.",
+        "Serve with syrup or fruits."
+      ],
+      "title": "Roshogulla",
+      "reviews": [],
+      "category": "Breakfast",
+      "thumbUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRO26sDFNP-p7Ucs9UAu_ShO82wjKXWBHhDCg&s",
+      "description": "Sweet and golden French toast served with syrup.",
+      "ingredients": {
+        "Eggs": "2",
+        "Milk": "1/2 cup",
+        "Butter": "1 tbsp",
+        "Cinnamon": "1/2 tsp",
+        "Bread slices": "4",
+        "Vanilla extract": "1 tsp"
+      }
+    },
+    {
+      "id": "10",
+      "steps": [
+        "Whisk eggs, milk, cinnamon, and vanilla.",
+        "Dip bread slices into the mixture.",
+        "Fry in butter until golden on both sides.",
+        "Serve with syrup or fruits."
+      ],
+      "title": "Chitoi Pitha",
+      "reviews": [],
+      "category": "Breakfast",
+      "thumbUrl": "https://veganbangla.com/wp-content/uploads/2024/01/fullsizeoutput_2d5c-1495362385-e1706722786533.jpeg?w=900",
+      "description": "Sweet and golden French toast served with syrup.",
+      "ingredients": {
+        "Eggs": "2",
+        "Milk": "1/2 cup",
+        "Butter": "1 tbsp",
+        "Cinnamon": "1/2 tsp",
+        "Bread slices": "4",
+        "Vanilla extract": "1 tsp"
+      }
+    },
+    {
+      "id": "7",
+      "steps": [
+        "Cook chopped tomatoes, onion, and garlic.",
+        "Add broth and simmer.",
+        "Blend until smooth.",
+        "Stir in cream, salt, and pepper.",
+        "Serve warm."
+      ],
+      "title": "Tomato Soup",
+      "reviews": [],
+      "category": "Soup",
+      "thumbUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRALiwOH12PVE3nO4hMrVEqW6jUjAAQOuChnA&s",
+      "description": "Smooth and tangy tomato soup perfect for cold days.",
+      "ingredients": {
+        "Salt": "to taste",
+        "Cream": "1/4 cup",
+        "Onion": "1",
+        "Garlic": "2 cloves",
+        "Pepper": "to taste",
+        "Tomatoes": "4",
+        "Vegetable broth": "2 cups"
+      }
+    },
+    {
+      "id": "8",
+      "steps": [
+        "Whisk eggs, milk, cinnamon, and vanilla.",
+        "Dip bread slices into the mixture.",
+        "Fry in butter until golden on both sides.",
+        "Serve with syrup or fruits."
+      ],
+      "title": "Nokshi Pitha",
+      "reviews": [],
+      "category": "Breakfast",
+      "thumbUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMrJtwETN7q2RrCvj8vgMBSJZ0NBxrI1aj1w&s",
+      "description": "Sweet and golden French toast served with syrup.",
+      "ingredients": {
+        "Eggs": "2",
+        "Milk": "1/2 cup",
+        "Butter": "1 tbsp",
+        "Cinnamon": "1/2 tsp",
+        "Bread slices": "4",
+        "Vanilla extract": "1 tsp"
+      }
+    }
+  
+  ]
