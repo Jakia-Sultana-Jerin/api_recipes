@@ -38,7 +38,8 @@ const upload = multer({ storage });
 // Upload endpoint
 app.post('/upload', upload.single('profilePicture'), (req, res) => {
   if (!req.file) return res.status(400).send('No file uploaded');
-  const url = `/uploads/${req.file.filename}`;
+ // const url = `/uploads/${req.file.filename}`;
+  const url = `${req.protocol}://${req.get('host')}/uploads/${req.file.filename}`;
   res.json({ url });
 });
 
