@@ -38,7 +38,7 @@ const upload = multer({ storage });
 // Upload endpoint
 app.post('/upload', upload.single('profilePicture'), (req, res) => {
   if (!req.file) return res.status(400).send('No file uploaded');
-  const url = `https://eclectic-melba-274878.netlify.app/uploads/${req.file.filename}`;
+  const url = `https://api-recipes-vdrq.onrender.com/uploads/${req.file.filename}`;
   res.json({ url });
 });
 
