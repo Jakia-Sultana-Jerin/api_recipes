@@ -24,25 +24,6 @@ app.use('/uploads', express.static('uploads'));
 
 
 
-// File upload setup
-const storage = multer.diskStorage({
-  destination: (req, file, cb) => cb(null, 'uploads/'),
-  filename: (req, file, cb) => {
-    const uniqueName = Date.now() + '-' + Math.round(Math.random() * 1e9);
-    cb(null, uniqueName + path.extname(file.originalname));
-  },
-});
-const path = require('path');
-const upload = multer({ storage });
-
-// Upload endpoint
-app.post('/upload', upload.single('profilePicture'), (req, res) => {
-  if (!req.file) return res.status(400).send('No file uploaded');
- // const url = `/uploads/${req.file.filename}`;
-  const url = `${req.protocol}://${req.get('host')}/uploads/${req.file.filename}`;
-  res.json({ url });
-});
-
 
 
 
@@ -80,6 +61,34 @@ module.exports = verifyFirebaseToken;
 //const recipesData = require('./models/data/recipes.json');
 
 // 
+const verifyFirebaseToken = require('./verifyFirebaseToken');
+
+app.post(
+  '/upload',
+  verifyFirebaseToken,           // ✅ Ei line add korun
+  upload.single('profilePicture'),
+  async (req, res) => {
+    if (!req.file) return res.status(400).send('No file uploaded');
+
+    const url = `${req.protocol}://${req.get('host')}/uploads/${req.file.filename}`;
+
+    // ✅ Ekhon verified Firebase user ID use korun
+    const userId = req.uid;  // Middleware e decodedToken.uid save hoise
+
+    // Example: MongoDB te save
+    await User.updateOne(
+      { _id: userId },
+      { $set: { profilePicture: url } }
+    );
+
+    res.json({ url });
+  }
+);
+
+
+
+
+
 app.get("/recipes", async (req, res) => {
   try {
     const recipes = await Recipes.find().sort({ createdAt: -1 });
@@ -115,7 +124,7 @@ app.post("/recipes", async (req, res) => {
         message: "Missing required fields",
       });
     }
-
+   const user = await User.findOne({ firebaseUid: uid });
     const newRecipe = await Recipes.create({
       title,
       description,
@@ -123,6 +132,7 @@ app.post("/recipes", async (req, res) => {
       steps,
       ingredients,
       category,
+      Uploaderprofilepic: user.profilePicture, // Use the profile picture from the request body
       reviews: [],
       createdBy: User._id, // 
     });

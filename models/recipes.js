@@ -17,6 +17,7 @@ const recipeSchema = new mongoose.Schema({
   thumbUrl: String,
   steps: [String],
   ingredients: mongoose.Schema.Types.Mixed,
+  Uploaderprofilepic: String,
   reviews: [reviewSchema]
 });
 
