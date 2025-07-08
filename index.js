@@ -61,7 +61,7 @@ module.exports = verifyFirebaseToken;
 //const recipesData = require('./models/data/recipes.json');
 
 // 
-const verifyFirebaseToken = require('./verifyFirebaseToken');
+//const verifyFirebaseToken = require('./verifyFirebaseToken');
 
 app.post(
   '/upload',
