@@ -87,11 +87,12 @@ app.post(
     const url = `${req.protocol}://${req.get('host')}/uploads/${req.file.filename}`;
 
     // ✅ Ekhon verified Firebase user ID use korun
-    const userId = req.uid;  // Middleware e decodedToken.uid save hoise
+        const user = await User.findOne({ firebaseUid: req.uid });
+   // const userId = req.uid;  // Middleware e decodedToken.uid save hoise
 
     // Example: MongoDB te save
     await User.updateOne(
-      { _id: userId },
+      { _id: user._id },
       { $set: { profilePicture: url } }
     );
 
