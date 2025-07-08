@@ -63,6 +63,20 @@ module.exports = verifyFirebaseToken;
 // 
 //const verifyFirebaseToken = require('./verifyFirebaseToken');
 
+// Storage config
+const storage = multer.diskStorage({
+  destination: function (req, file, cb) {
+    cb(null, 'uploads/');
+  },
+  filename: function (req, file, cb) {
+    cb(null, Date.now() + '-' + file.originalname);
+  }
+});
+const upload = multer({ storage: storage });
+
+
+
+
 app.post(
   '/upload',
   verifyFirebaseToken,           // ✅ Ei line add korun
